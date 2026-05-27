@@ -28,8 +28,6 @@ If NtReadVirtualMemory or NtAllocateVirtualMemory are hooked, ReadProcessMemory 
 <img width="731" height="406" alt="image" src="https://github.com/user-attachments/assets/739223bb-b411-4495-b147-bbd094c35a8d" />
 
 
-```
-
 `0xe9` is the x86/x64 opcode for `jmp rel32` — the classic inline hook pattern.
 
 ## Technical details
